@@ -1,7 +1,7 @@
 const mysql = require("mysql");
 
 const mysqlConnection = mysql.createConnection({
-  host: "shareddb-m.hosting.stackcp.net",
+  host: "mysql.gb.stackcp.com:61159",
   user: "copup-u",
   password: "cq2hfmw4b3",
   database: "copup-data-313031d088",
