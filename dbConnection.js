@@ -1,11 +1,10 @@
 const mysql = require("mysql");
 
 const mysqlConnection = mysql.createConnection({
-  host: "mysql.gb.stackcp.com",
-  port: 63047,
-  user: "nodejs-user",
-  password: "@12345678",
-  database: "nodejs-db-353035312052",
+  host: "bfogcvom7nfugf87kf2y-mysql.services.clever-cloud.com",
+  user: "uizijajtczv2vq0c",
+  password: "mj91RdY1n5K8SjQF3Zeq",
+  database: "bfogcvom7nfugf87kf2y",
 });
 
 mysqlConnection.connect((err) => {
@@ -15,5 +14,8 @@ mysqlConnection.connect((err) => {
   }
   console.log("Connected to the MySQL database");
 });
-
 module.exports = mysqlConnection;
+
+
+
+1per%@World-DOM
