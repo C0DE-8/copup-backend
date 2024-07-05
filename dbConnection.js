@@ -16,6 +16,3 @@ mysqlConnection.connect((err) => {
 });
 module.exports = mysqlConnection;
 
-
-
-1per%@World-DOM
